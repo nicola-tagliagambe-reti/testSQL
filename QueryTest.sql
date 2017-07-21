@@ -1,12 +1,21 @@
--- Test file for Git Integration
--- Date: 21/07/2017
-
-create procedure Sp_Test( 
+/****************************************
+* Developed by: NT 
+* Date: 21/07/2017  
+* Description: Test Procedure
+*****************************************/
+create or replace procedure Sp_Test( 
                          pResult out number, 
                          pResultDescr out varchar2
                         )
 is
+    lvCount number;
 begin 
-    -- First Version of Sp_Test    
-    null;
+    
+    select 1
+    into lvCount 
+    from dual;
+    
+    
 end Sp_Test;
+
+
