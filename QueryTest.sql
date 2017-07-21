@@ -3,3 +3,12 @@
 
 select 1
 from dual;
+
+-- Second query 
+
+Select 'X'
+from dual;
+
+-- Third Query 
+Select 3 
+from dual;
