@@ -15,6 +15,8 @@ begin
     into lvCount 
     from dual;
     
+    pResult := 0;
+    pResultDescr := 'OK';
     
 end Sp_Test;
 
